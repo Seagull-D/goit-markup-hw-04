@@ -1,0 +1,467 @@
+:root {
+    --background-color: #FFFFFF;
+    --background-second-color: #2e2f42;
+    --active-link-color: #4D5AE5;
+    --active-button-colore: #404BBF;
+    --primary-font: "Roboto", sans-serif;
+    --text-color:#434455 ;
+    --text-color-second: #2e2f42;
+    --logo-color: #4D5AE5; 
+    --button-collor: #F4F4FD;
+}
+
+
+body {
+    font-family: var(--primary-font);
+    color: var(--text-color);
+    background-color: var(--background-color);
+    }
+
+    p, 
+    h1, 
+    h2, 
+    h3, 
+    h4, 
+    h5, 
+    h6 {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    ul, 
+    ol {
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left: 0;
+        padding: 0;
+    }
+img {
+    display: block;
+    max-width: 100%;
+    }
+
+.link {
+    text-decoration: none;
+}
+.list {
+    list-style: none;
+}
+
+
+/*Logo info*/
+.logo {
+        font-family: "Raleway", sans-serif;
+        font-size: 18px;
+        font-weight: 800;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-align: left;
+        text-transform: uppercase;
+        color: var(--logo-color);
+}
+.second-logocolor-logo {
+    color: #2E2F42;
+}
+
+/*Navigation section*/
+.contact-link {
+        color: var(--text-color-second);
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        text-align: left;
+        padding: 24px 0;
+}
+.contact-link:hover, .contact-link:active, .contact-link:focus {
+    color: #404bbf;
+
+}
+
+/*address*/
+.address-container {
+font-style: normal;
+}
+.address-link {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        text-align: left;
+        color: var(--text-color)}
+
+        .address-link:hover, .address-link:active, .address-link:focus {
+        color: #404bbf;
+}
+
+/**menu battons**/
+
+.main-title-container {
+    background-color: var(--background-second-color);
+
+}
+.main-title {
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+}
+.main-button {
+        font-family: "Roboto", sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        text-align: center;
+        background-color: #4D5AE5;
+        color: #ffffff;
+        cursor: pointer;
+        
+}
+.main-button:hover, .main-button:active, .main-button:focus {
+    background-color: #404BBF;
+}
+
+
+/*About company*/
+.about-company-title { 
+    
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        text-align: left;
+        color:var(--text-color-second);
+
+}
+.abaut-company-text {
+    
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        text-align: left;
+        color: var(--text-color);
+        
+}
+
+/*What are we doing section*/
+.studio-services {
+
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em
+    text-align:center;
+    text-transform: capitalize;
+    color: var(--text-color-second);
+    text-align: center
+}
+
+/*Team seaction*/
+.team-container {
+    background: #F4F4FD;
+}
+
+.team-title {
+   
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        text-align: center;
+        text-transform: capitalize;
+        color: var(--text-color-second);
+}
+
+.team_list {
+    background: #FFFFFF;
+}
+
+.team-name-title {
+    
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        text-align:center;
+        color: var(--text-color-second);
+}
+
+.team-name-text {
+    
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: var(--text-color);
+}
+
+/*Footer*/
+
+.footer-container {
+    background: #2E2F42;
+
+}
+.footer-logo-second {
+    color: #F4F4FD;
+}
+.footer-text {
+    font-family: Roboto;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        text-align: left;
+        color: #F4F4FD;
+}
+
+                 /*PORTFOLIO*/
+/*  Menu buttons */
+
+.menu-container
+
+.menu-button {
+        font-family: "Roboto", sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        text-align: center;
+        color: var(--active-link-color);
+        background-color: var(--button-collor);
+        cursor: pointer;
+}
+
+.menu-button:hover, .menu-button:active, .menu-button:focus {
+    background-color:#404BBF ;
+    color: #FFFFFF;
+}
+/*content portfolio*/
+.content-title {
+    
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        text-align: left;
+        color: var(--text-color-second);
+}
+.p-body-font {
+    
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        text-align: left;
+        color: var(--text-color);
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+/*Header diposition */
+
+.container {
+    max-width: 1158px;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: 0 auto;
+}
+
+.header {
+    
+    border-bottom: 1px solid #e7e9fc
+}
+.nav-container {
+display: flex;
+align-items: center;
+flex-grow: 1;
+justify-content: space-between;
+}
+.logo {
+    margin-right: 76px;
+    padding: 24px 0;
+}
+.header-menu {
+    display: flex;
+    
+    gap: 40px;
+    
+}
+/* .heder-menu-item {
+    padding-top: 24px;
+    padding-bottom: 24px;
+} */
+.header-container {
+    display: flex;
+    align-items: center;
+    gap: 320px;
+}
+.link-header {
+    display: flex;
+        align-items: center;
+        gap: 40px;
+}
+
+.title-container {
+    margin: 0 auto;
+    
+    max-width: 1140px;
+    width: 100%;
+    
+    
+}
+.main-title-container {
+    padding: 188px 0;
+}
+.main-title {
+    max-width: 496px;
+    margin: 0 auto;
+}
+ .main-button {
+    padding: 16px 32px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 48px;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
+}
+.section-company {
+    padding: 120px 0;
+}
+
+.about-company-container {
+    display: flex;
+    gap: 24px;
+}
+
+.list-container  {
+    width: calc((100% - 72px) / 4);
+    max-width: 264px;
+}
+
+.about-company-title {
+    margin-bottom: 8px;
+}
+
+.studio-section {
+    display: flex;
+    padding-bottom: 120px;
+}
+    .studio-services {
+        width: 0 auto;
+        margin-bottom: 72px;
+        
+    }
+
+.studio-services-container {
+    display: flex;
+    gap: 24px;
+ 
+}
+
+.studio-services-item {
+    width: calc((100% - 48px) / 3);
+}
+
+.team-container {
+padding: 120px 0;
+}
+.team-title {
+   width: 0 auto;  
+   margin-bottom: 72px;
+}
+
+.employee-list {
+    display: flex;
+    gap: 24px;
+   
+}
+.team_list{
+    width: calc((100% - 72px) / 4);
+    border-radius: 0 0 4px 4px;
+}
+.team-name-title {
+    
+    margin-bottom: 8px;
+    text-align: center;
+
+}
+.employee-name {
+    padding: 32px 16px;
+
+}
+
+
+.footer-container{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.footer-text {
+    max-width: 264px;
+    
+}
+
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 72px;
+    gap: 24px;
+}
+.logo-footer {
+display: inline-block;
+margin-bottom: 16px;
+padding: 0;
+}
+
+    
+.menu-container {
+    padding-top: 96px;
+    padding-bottom: 120px;
+}
+.menu-button {
+display: block;
+padding: 12px 24px;
+border-radius: 4px;
+border: 1px solid #E7E9FC;
+
+}
+.menu-button:hover,
+.menu-button:focus {
+    border: 1px solid transparent;
+}
+.service-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap:48px 24px;
+}
+
+.portfolio-cards {
+    width: calc((100% - 48px) / 3);
+    border: 1px solid #E7E9FC;
+}
+
+.list-link {
+    padding: 32px 16px;
+    
+    border-top: none;
+}
+.content-title {
+    margin-bottom: 8px;
+}
