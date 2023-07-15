@@ -62,7 +62,9 @@
       <section class="main-title-container">
         <div class="container title-container">
           <h1 class="main-title">Effective Solutions for Your Business</h1>
-          <button class="main-button" type="button">Order Service</button>
+          <button class="main-button" data-modal-open type="button">
+            Order Service
+          </button>
         </div>
       </section>
       <!--about us-->
@@ -362,34 +364,46 @@
           <h2 class="customers-title">Customers</h2>
           <ul class="customers-icons">
             <li class="customers-item">
-              <svg>
-                <use href="./images/icons.svg#icon-ayco"></use>
-              </svg>
+              <a class="customer-link" href="#">
+                <svg>
+                  <use href="./images/icons.svg#icon-ayco"></use>
+                </svg>
+              </a>
             </li>
             <li class="customers-item">
-              <svg>
-                <use href="./images/icons.svg#icon-tagline"></use>
-              </svg>
+              <a class="customer-link" href="#">
+                <svg>
+                  <use href="./images/icons.svg#icon-tagline"></use>
+                </svg>
+              </a>
             </li>
             <li class="customers-item">
-              <svg>
-                <use href="./images/icons.svg#icon-company"></use>
-              </svg>
+              <a class="customer-link" href="#">
+                <svg>
+                  <use href="./images/icons.svg#icon-company"></use>
+                </svg>
+              </a>
             </li>
             <li class="customers-item">
-              <svg>
-                <use href="./images/icons.svg#icon-FOSTER-PETERS"></use>
-              </svg>
+              <a class="customer-link" href="">
+                <svg>
+                  <use href="./images/icons.svg#icon-FOSTER-PETERS"></use>
+                </svg>
+              </a>
             </li>
             <li class="customers-item">
-              <svg>
-                <use href="./images/icons.svg#icon-brand"></use>
-              </svg>
+              <a class="customer-link" href="#">
+                <svg>
+                  <use href="./images/icons.svg#icon-brand"></use>
+                </svg>
+              </a>
             </li>
             <li class="customers-item">
-              <svg>
-                <use href="./images/icons.svg#icon-tag-line"></use>
-              </svg>
+              <a class="customer-link" href="#">
+                <svg>
+                  <use href="./images/icons.svg#icon-tag-line"></use>
+                </svg>
+              </a>
             </li>
           </ul>
         </div>
@@ -439,5 +453,17 @@
         </div>
       </div>
     </footer>
+    <div class="backdrop" data-modal>
+      <div class="modal">
+        <div class="close">
+          <batton class="close-batton" type="batton" data-modal-close>
+            <svg>
+              <use href="./images/icons.svg#icon-close-black"></use>
+            </svg>
+          </batton>
+        </div>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
