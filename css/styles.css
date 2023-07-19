@@ -415,7 +415,7 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-b
 .service-link {
     display: block;
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    transition: translateY(0%);
+   
 
 }
 .service-link:hover, .service-link:focus {
@@ -424,12 +424,11 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-b
         0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
-.service-link:hover .p-body-font{
-    transform: translateY(0%);
-
+.service-link:hover .cover-text {
+    transform: translateY(0);
 }
-.service-link:focus .p-body-font{
-    transform: translateY(0%);
+.service-link:focus .cover-text {
+    transform: translateY(0);
 }
 
 
