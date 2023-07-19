@@ -424,7 +424,7 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-b
         0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
-.p-body-font:hover, .service-link .p-body-font:focus{
+.service-link .p-body-font:hover, .service-link .p-body-font:focus{
     transform: translateY(0%);
 
 }
@@ -437,7 +437,7 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-b
     
         }
     
-.cover-img:hover .cover-text:focus {
+.cover-img:hover .cover-text {
             transform: translateY(0);
         }
 
@@ -807,5 +807,5 @@ transform: translate(-50%, -50%) scaleY(0);
     pointer-events: none;
 }
 .button-svg {
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
