@@ -428,7 +428,7 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-b
     transform: translateY(0%);
 
 }
-.service-link .p-body-font:focus{
+.portfolio-cards .p-body-font:focus{
     transform: translateY(0%);
 }
 
