@@ -424,7 +424,7 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-b
         0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
-.service-link .cover-textont:hover{
+.service-link .cover-text:hover{
     transform: translateY(0%);
 
 }
